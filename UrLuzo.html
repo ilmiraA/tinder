@@ -5,27 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
     <link rel="stylesheet" href="CSS/UrLuzo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p></p>
-    <div>
-        <p></p>
-        <input type="text">
-        <p></p>
-        <input type="text">
-        <p></p>
-        <input type="text">
-        <p></p>
-        <input type="text">
-        <p></p>
-        <input type="text">
-        <p></p>
-        <input type="text">
-        <p></p>
-        <input type="text">
-    </div>
-    <div>
-        <p></p>
+    <p id="send">Регистрация</p>
+    <form class="LogIn">
+        <div class="div">
+            <p class="p">Наименование по ЕГРЮЛ:</p>
+            <input type="text">
+        </div>
+        <div class="div">
+            <p class="p">Организационно-правовая форма:</p>
+            <input type="text">
+        </div>
+        <div class="div">
+            <p class="p">ОГРН:</p>
+            <input type="text" maxlength="13">
+        </div>
+        <div class="div">
+            <p class="p">Адрес (указанный в ЕГР):</p>
+            <input type="text">
+        </div>
+        <div class="div">
+            <p class="p">Номер контактного лица:</p>
+            <input type="text" maxlength="12">
+        </div>
+        <div class="div">
+            <p class="p">ФИО контактного лица:</p>
+            <input type="text">
+        </div>
+        <div class="div">
+            <p class="p">Номер факса:</p>
+            <input type="text" maxlength="11">
+        </div>
+        <div class="div">
+            <p class="p">ИНН:</p>
+            <input type="text" maxlength="12">
+        </div>
+        <div class="div">
+            <p class="p">Электронная почта:</p>
+            <input type="email">
+        </div>
+        <div class="div">
+            <p class="p">Пароль:</p>
+            <input type="password" minlength="8">
+        </div>
+        <div class="div">
+            <p class="p">Повторите пароль:</p>
+            <input type="password" minlength="8">
+        </div>
+    </form>
+    <div class="send">
+        <a href="Glavnaya.html">
+            <p>Зарегистрироваться</p>
+        </a>
     </div>
 </body>
 </html>
