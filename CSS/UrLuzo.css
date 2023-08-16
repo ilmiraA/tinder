@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(../img/vxod1.png);
+    background-size: cover;
+    height: 100%;
+}

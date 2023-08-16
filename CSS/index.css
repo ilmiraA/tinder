@@ -15,7 +15,12 @@ html{
     border-radius: 10px;
     height: 90px;
     margin-left: 28%;
-    margin-top: 17%;
+    margin-top: 12%;
+}
+
+#voitu{
+    font-size: 30px;
+    padding-top: 30px;
 }
 
 .button2{
@@ -27,9 +32,26 @@ html{
     margin-left: 28%;
 }
 
+.button3{
+    background: #0065B0;
+    width: 550px;
+    border-radius: 10px;
+    height: 90px;
+    margin-top: 50px;
+    margin-left: 28%;
+}
+
 p{
-    color: white;
-    font-size: 40px;
+    font-size: 23px;
     text-align: center;
-    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pip{
+    padding-top: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
