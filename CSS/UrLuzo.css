@@ -46,7 +46,6 @@ input{
 
 .p{
     font-size: 27px;
-    font-family: 'Montserrat', sans-serif;
     margin-top: 12px;
     margin-right: 5px;
 }
@@ -73,6 +72,5 @@ p{
 }
 
 a{
-    color: white;
     text-decoration: none;
 }
