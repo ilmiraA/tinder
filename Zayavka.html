@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Zayavka.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <p id="send">Заявка</p>
+    <from action="Glavnaya.html">
+        <div class="LogIn">
+            <div class="div">
+                <p>Получатель:</p>
+                <input type="text">
+            </div>
+            <div class="div">
+                <p>Услуга:</p>
+                <input type="text">
+            </div>
+            <div class="div">
+                <p>Период оказания услуги:</p>
+                <input type="text">
+            </div>
+            <div class="div">
+                <p>Размер выплаты:</p>
+                <input type="text">
+            </div>
+            <div class="div">
+                <p>Требования к пользователю:</p>
+                <input type="text">
+            </div>
+            <div>
+                <input type="checkbox" id="check">
+                <p>Дополнительный запрос</p>
+            </div>
+            <div class="div">
+                <p>Запрос на гарантированную поставку мощности при внештатных ситуациях.</p>
+            </div>
+            
+            <div class="div">
+                <p>Выплата:</p>
+                <input type="text" id="my-input">
+            </div>
+            <div class="div">
+                <p>Мощность:</p>
+                <input type="text" id="my-input">
+            </div>
+            <script>
+                const myCheckbox = document.getElementById("check");
+                const myInput = document.getElementById("my-input");
+
+                    myCheckbox.addEventListener("change", function() {
+                        const isChecked = myCheckbox.checked;
+
+                        if (isChecked) {
+                            myInput.value = myOption.value;
+                        } else {
+                            myInput.value = "";
+                        }
+                    });
+            </script>
+        </div>
+        <input class="send" type="submit" value="Отправить">
+    </from>
+</body>
+</html>

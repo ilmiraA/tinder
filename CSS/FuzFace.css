@@ -63,10 +63,6 @@ p{
     font-family: 'Montserrat', sans-serif;
 }
 
-#p{
-    width: 460px;
-}
-
 .send{
     background: #00457a;
     border-radius: 10px;
@@ -78,12 +74,14 @@ p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     margin-left: 40%;
+    border-style: none;
 }
 
-.send p{
-    padding-top: 3px;
+.send:hover{
+    background: #013258;
 }
 
-a{
-    text-decoration: none;
+.send:active{
+    color: #d1d1d1;
+    background: #01233d;
 }
